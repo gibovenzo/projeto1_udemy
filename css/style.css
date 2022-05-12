@@ -1,0 +1,108 @@
+body{
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../Imagens/technology.jpg);
+    height: 400px;
+    background-position: right center;
+    background-size: auto;
+    border: 1px solid transparent;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 140px;
+
+}
+
+.hero-content h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgb(23, 23, 71);
+}
+
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.562);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+    
+.hero nav ul{
+    text-align: right;
+    margin: 12px 12px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    border: 1px solid rgb(6, 6, 167);
+    list-style: none;
+}
+
+.hero nav a{
+    text-decoration: none;
+    background-color: rgba(0, 255, 255, 0.253);
+    color: rgb(221, 221, 238);
+    text-transform: uppercase;
+    display: block;
+    padding: 7px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0, 255, 255, 0.39);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card{
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+}
+
+.card p{
+    background-color: rgb(77, 70, 70);
+    color: white;
+    padding: 15px;
+    margin: 0;      
+}
+
+.content-section h2{
+    background-color: rgb(219, 215, 215);
+    margin: auto;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(83, 79, 79);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 15px;
+}
